@@ -1,4 +1,4 @@
-package lab3;
+package lab3_1;
 
 public class Postgraduate extends Learner {
     private String project;

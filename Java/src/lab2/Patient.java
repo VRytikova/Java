@@ -53,6 +53,10 @@ public class Patient {
         return age;
     }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public void displayInfo(){
         System.out.println("Surname: "+getSurname()+ " Gender:"+getGender()+ " Age: "+getAge());
     }

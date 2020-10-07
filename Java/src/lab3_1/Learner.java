@@ -1,4 +1,4 @@
-package lab3;
+package lab3_1;
 
 public class Learner {
     protected String surname;
