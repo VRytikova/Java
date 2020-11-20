@@ -24,7 +24,7 @@ public class Pupil extends Learner{
         this.letter='d';
     }
 
-    public int getClassNumber(){
+    public int getClassNumber() {
         return classNumber;
     }
 
