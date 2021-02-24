@@ -8,10 +8,10 @@ import static java.lang.System.exit;
 public class Lab5 {
     public static void main(String[] args) throws Exception {
         Filework fw = new Filework();
-        int key = 0;
+        int key;
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         do {
-            System.out.println("Menu\n"+"1 - Show info\n"+"2 - Add text\n"+"3 - Remove numbers from text\n"+"4 - Copy information"+"5 - Close fileStream");
+            System.out.println("Menu\n"+"1 - Show info\n"+"2 - Add text\n"+"3 - Remove numbers from text\n"+"4 - Copy information\n"+"5 - Close fileStream");
             key = Integer.parseInt(in.readLine());
             switch (key) {
                 case 1:
